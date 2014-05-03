@@ -13,8 +13,6 @@
 		1F23C85D191517E300C21503 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C85B191517E300C21503 /* InfoPlist.strings */; };
 		1F23C85F191517E300C21503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C85E191517E300C21503 /* main.m */; };
 		1F23C863191517E300C21503 /* SNFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C862191517E300C21503 /* SNFAppDelegate.m */; };
-		1F23C866191517E300C21503 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C864191517E300C21503 /* Main_iPhone.storyboard */; };
-		1F23C869191517E300C21503 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C867191517E300C21503 /* Main_iPad.storyboard */; };
 		1F23C86C191517E300C21503 /* SNFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C86B191517E300C21503 /* SNFViewController.m */; };
 		1F23C86E191517E300C21503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C86D191517E300C21503 /* Images.xcassets */; };
 		1F23C875191517E300C21503 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F23C874191517E300C21503 /* XCTest.framework */; };
@@ -22,6 +20,7 @@
 		1F23C877191517E300C21503 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F23C856191517E300C21503 /* UIKit.framework */; };
 		1F23C87F191517E300C21503 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C87D191517E300C21503 /* InfoPlist.strings */; };
 		1F23C881191517E300C21503 /* Shopnow_FancyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C880191517E300C21503 /* Shopnow_FancyTests.m */; };
+		31C2B486F94F490A924858D6 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3034027F6CD9433AA8BD4FAC /* libPods-test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10E3589BFD7149B191A69CF8 /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = "<group>"; };
 		1F23C84F191517E300C21503 /* Shopnow Fancy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopnow Fancy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F23C852191517E300C21503 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F23C854191517E300C21503 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +45,6 @@
 		1F23C860191517E300C21503 /* Shopnow Fancy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shopnow Fancy-Prefix.pch"; sourceTree = "<group>"; };
 		1F23C861191517E300C21503 /* SNFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFAppDelegate.h; sourceTree = "<group>"; };
 		1F23C862191517E300C21503 /* SNFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFAppDelegate.m; sourceTree = "<group>"; };
-		1F23C865191517E300C21503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		1F23C868191517E300C21503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		1F23C86A191517E300C21503 /* SNFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFViewController.h; sourceTree = "<group>"; };
 		1F23C86B191517E300C21503 /* SNFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFViewController.m; sourceTree = "<group>"; };
 		1F23C86D191517E300C21503 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +53,7 @@
 		1F23C87C191517E300C21503 /* Shopnow FancyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shopnow FancyTests-Info.plist"; sourceTree = "<group>"; };
 		1F23C87E191517E300C21503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F23C880191517E300C21503 /* Shopnow_FancyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopnow_FancyTests.m; sourceTree = "<group>"; };
+		3034027F6CD9433AA8BD4FAC /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +74,7 @@
 				1F23C875191517E300C21503 /* XCTest.framework in Frameworks */,
 				1F23C877191517E300C21503 /* UIKit.framework in Frameworks */,
 				1F23C876191517E300C21503 /* Foundation.framework in Frameworks */,
+				31C2B486F94F490A924858D6 /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +88,7 @@
 				1F23C87A191517E300C21503 /* Shopnow FancyTests */,
 				1F23C851191517E300C21503 /* Frameworks */,
 				1F23C850191517E300C21503 /* Products */,
+				10E3589BFD7149B191A69CF8 /* Pods-test.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +108,7 @@
 				1F23C854191517E300C21503 /* CoreGraphics.framework */,
 				1F23C856191517E300C21503 /* UIKit.framework */,
 				1F23C874191517E300C21503 /* XCTest.framework */,
+				3034027F6CD9433AA8BD4FAC /* libPods-test.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,8 +118,6 @@
 			children = (
 				1F23C861191517E300C21503 /* SNFAppDelegate.h */,
 				1F23C862191517E300C21503 /* SNFAppDelegate.m */,
-				1F23C864191517E300C21503 /* Main_iPhone.storyboard */,
-				1F23C867191517E300C21503 /* Main_iPad.storyboard */,
 				1F23C86A191517E300C21503 /* SNFViewController.h */,
 				1F23C86B191517E300C21503 /* SNFViewController.m */,
 				1F23C86D191517E300C21503 /* Images.xcassets */,
@@ -179,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F23C887191517E300C21503 /* Build configuration list for PBXNativeTarget "Shopnow FancyTests" */;
 			buildPhases = (
+				BD912D9158D54A50B3703FAA /* Check Pods Manifest.lock */,
 				1F23C86F191517E300C21503 /* Sources */,
 				1F23C870191517E300C21503 /* Frameworks */,
 				1F23C871191517E300C21503 /* Resources */,
+				3E2534AF12DC4A60B7822B99 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F23C869191517E300C21503 /* Main_iPad.storyboard in Resources */,
 				1F23C86E191517E300C21503 /* Images.xcassets in Resources */,
-				1F23C866191517E300C21503 /* Main_iPhone.storyboard in Resources */,
 				1F23C85D191517E300C21503 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +248,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E2534AF12DC4A60B7822B99 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD912D9158D54A50B3703FAA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F23C84B191517E300C21503 /* Sources */ = {
@@ -285,22 +318,6 @@
 				1F23C85C191517E300C21503 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1F23C864191517E300C21503 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F23C865191517E300C21503 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		1F23C867191517E300C21503 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F23C868191517E300C21503 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		1F23C87D191517E300C21503 /* InfoPlist.strings */ = {
@@ -346,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -394,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shopnow Fancy/Shopnow Fancy-Prefix.pch";
 				INFOPLIST_FILE = "Shopnow Fancy/Shopnow Fancy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +425,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shopnow Fancy/Shopnow Fancy-Prefix.pch";
 				INFOPLIST_FILE = "Shopnow Fancy/Shopnow Fancy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -414,6 +433,7 @@
 		};
 		1F23C888191517E300C21503 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E3589BFD7149B191A69CF8 /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shopnow Fancy.app/Shopnow Fancy";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -436,6 +456,7 @@
 		};
 		1F23C889191517E300C21503 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E3589BFD7149B191A69CF8 /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shopnow Fancy.app/Shopnow Fancy";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -471,6 +492,7 @@
 				1F23C886191517E300C21503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F23C887191517E300C21503 /* Build configuration list for PBXNativeTarget "Shopnow FancyTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +501,7 @@
 				1F23C889191517E300C21503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
