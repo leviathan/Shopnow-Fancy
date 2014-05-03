@@ -10,8 +10,8 @@ Clone the project including submodules:
 	$ git clone --recursive xxx
 	$ cd Shopnow Fancy
 	$ gem install cocoapods
-  $ pod setup
-  $ pod install
+	$ pod setup
+	$ pod install
 
 Build and run the 'Shopnow Fancy.xcworkspace' project using XCode (or any IDE of your choice).
 
