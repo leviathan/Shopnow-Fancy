@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 Jörg Polakowski. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SNFTableView.h"
+#import "SNFDefaultDataSource.h"
 
-@interface SNFViewController : UIViewController
+@interface SNFViewController : UIViewController <SNFTableViewDataSource, SNFTableViewDelegate,
+        SNFDefaultDataSourceDelegate>
 
 @end

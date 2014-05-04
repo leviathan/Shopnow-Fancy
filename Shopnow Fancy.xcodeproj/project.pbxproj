@@ -18,9 +18,20 @@
 		1F23C877191517E300C21503 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F23C856191517E300C21503 /* UIKit.framework */; };
 		1F23C87F191517E300C21503 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C87D191517E300C21503 /* InfoPlist.strings */; };
 		1F23C881191517E300C21503 /* Shopnow_FancyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C880191517E300C21503 /* Shopnow_FancyTests.m */; };
+		1F8CA8CF19166EB100B812ED /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CA8CE19166EB100B812ED /* Social.framework */; };
+		1F8CA8D1191676E600B812ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CA8D0191676E600B812ED /* MapKit.framework */; };
 		31C2B486F94F490A924858D6 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3034027F6CD9433AA8BD4FAC /* libPods-test.a */; };
+		AF3EA02D15D1184FD1942DE6 /* SNFDefaultDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EA8F84257ED6ADC3C15A3 /* SNFDefaultDataSource.m */; };
+		AF3EA1A7C0D48635613470BF /* SNFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EA6738C3F24C512FA1D4B /* SNFTableViewCell.m */; };
+		AF3EA3164D678D356631B8E8 /* SNFRowRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EAFF0F1985995DA9C15F1 /* SNFRowRecord.m */; };
+		AF3EA522BA72B123CF647A22 /* SNFTwitterDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EA9C8A5591ABFFEA9F0A5 /* SNFTwitterDataSource.m */; };
 		AF3EA5D5D7296F5CD8D379F4 /* SNFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EAB5956A65C82416C252F /* SNFAppDelegate.m */; };
+		AF3EA5EF62C0A24A7882F1A9 /* NSObject+SNFSafeConcurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EA6AB2D5BA080970B99C5 /* NSObject+SNFSafeConcurrency.m */; };
+		AF3EA60DEAF731A86F890996 /* SNFTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EA2B4151D0AC513112A17 /* SNFTweet.m */; };
+		AF3EA95FF9332E273450918A /* SNFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EA72113129FC1FDC20907 /* SNFTableView.m */; };
 		AF3EAE1DC77287982B2A79CB /* SNFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EA279881725BDC2523D8B /* SNFViewController.m */; };
+		AF3EAFB9E0B6FA796A5ABBF2 /* SNFTwitterApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EADBC1CFCEA2C552E3543 /* SNFTwitterApiClient.m */; };
+		BFC12DF829C44DA2B48924FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24E28AFF5624DEA8682F3BA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +60,31 @@
 		1F23C87C191517E300C21503 /* Shopnow FancyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shopnow FancyTests-Info.plist"; sourceTree = "<group>"; };
 		1F23C87E191517E300C21503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F23C880191517E300C21503 /* Shopnow_FancyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopnow_FancyTests.m; sourceTree = "<group>"; };
+		1F8CA8CE19166EB100B812ED /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1F8CA8D0191676E600B812ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3034027F6CD9433AA8BD4FAC /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8404CAC3A0094ECEBB8D1138 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A24E28AFF5624DEA8682F3BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3EA279881725BDC2523D8B /* SNFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFViewController.m; sourceTree = "<group>"; };
+		AF3EA29675220F2FBD03890B /* SNFDefaultDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFDefaultDataSource.h; sourceTree = "<group>"; };
+		AF3EA2B4151D0AC513112A17 /* SNFTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFTweet.m; sourceTree = "<group>"; };
+		AF3EA5F041A2391F17F79064 /* NSObject+SNFSafeConcurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SNFSafeConcurrency.h"; sourceTree = "<group>"; };
+		AF3EA6738C3F24C512FA1D4B /* SNFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFTableViewCell.m; sourceTree = "<group>"; };
+		AF3EA6AB2D5BA080970B99C5 /* NSObject+SNFSafeConcurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SNFSafeConcurrency.m"; sourceTree = "<group>"; };
+		AF3EA72113129FC1FDC20907 /* SNFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFTableView.m; sourceTree = "<group>"; };
+		AF3EA792B3AD71C8B1D09D1E /* SNFTwitterApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFTwitterApiClient.h; sourceTree = "<group>"; };
 		AF3EA81D05F62AA597E3CEE7 /* SNFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFViewController.h; sourceTree = "<group>"; };
+		AF3EA86E32B784CDEE02A880 /* SNFTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFTweet.h; sourceTree = "<group>"; };
+		AF3EA8F84257ED6ADC3C15A3 /* SNFDefaultDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFDefaultDataSource.m; sourceTree = "<group>"; };
+		AF3EA97670EC205C51D45E92 /* SNFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFTableViewCell.h; sourceTree = "<group>"; };
+		AF3EA9AE94C5D6B8F470B93F /* SNFTwitterDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFTwitterDataSource.h; sourceTree = "<group>"; };
+		AF3EA9C8A5591ABFFEA9F0A5 /* SNFTwitterDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFTwitterDataSource.m; sourceTree = "<group>"; };
+		AF3EAAC464727D8B33BE51D9 /* SNFRowRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFRowRecord.h; sourceTree = "<group>"; };
 		AF3EAB5956A65C82416C252F /* SNFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFAppDelegate.m; sourceTree = "<group>"; };
+		AF3EADBC1CFCEA2C552E3543 /* SNFTwitterApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFTwitterApiClient.m; sourceTree = "<group>"; };
 		AF3EAE85D0837D0CCDE4F5C7 /* SNFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFAppDelegate.h; sourceTree = "<group>"; };
+		AF3EAFCEF723FD67020C0481 /* SNFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFTableView.h; sourceTree = "<group>"; };
+		AF3EAFF0F1985995DA9C15F1 /* SNFRowRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFRowRecord.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +92,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8CA8D1191676E600B812ED /* MapKit.framework in Frameworks */,
+				1F8CA8CF19166EB100B812ED /* Social.framework in Frameworks */,
 				1F23C855191517E300C21503 /* CoreGraphics.framework in Frameworks */,
 				1F23C857191517E300C21503 /* UIKit.framework in Frameworks */,
 				1F23C853191517E300C21503 /* Foundation.framework in Frameworks */,
+				BFC12DF829C44DA2B48924FB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +123,7 @@
 				1F23C851191517E300C21503 /* Frameworks */,
 				1F23C850191517E300C21503 /* Products */,
 				10E3589BFD7149B191A69CF8 /* Pods-test.xcconfig */,
+				8404CAC3A0094ECEBB8D1138 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +139,14 @@
 		1F23C851191517E300C21503 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F8CA8D0191676E600B812ED /* MapKit.framework */,
+				1F8CA8CE19166EB100B812ED /* Social.framework */,
 				1F23C852191517E300C21503 /* Foundation.framework */,
 				1F23C854191517E300C21503 /* CoreGraphics.framework */,
 				1F23C856191517E300C21503 /* UIKit.framework */,
 				1F23C874191517E300C21503 /* XCTest.framework */,
 				3034027F6CD9433AA8BD4FAC /* libPods-test.a */,
+				A24E28AFF5624DEA8682F3BA /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +193,8 @@
 		AF3EA0BFB4375E72349D0BC9 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				AF3EA6AB2D5BA080970B99C5 /* NSObject+SNFSafeConcurrency.m */,
+				AF3EA5F041A2391F17F79064 /* NSObject+SNFSafeConcurrency.h */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -178,6 +218,10 @@
 		AF3EA354B182B87805BB3823 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AF3EA6738C3F24C512FA1D4B /* SNFTableViewCell.m */,
+				AF3EA97670EC205C51D45E92 /* SNFTableViewCell.h */,
+				AF3EA72113129FC1FDC20907 /* SNFTableView.m */,
+				AF3EAFCEF723FD67020C0481 /* SNFTableView.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +229,8 @@
 		AF3EA68CFF250B4717AB00AC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AF3EA2B4151D0AC513112A17 /* SNFTweet.m */,
+				AF3EA86E32B784CDEE02A880 /* SNFTweet.h */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,6 +245,14 @@
 		AF3EA9F9F8FE2973BD775E9C /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				AF3EAFF0F1985995DA9C15F1 /* SNFRowRecord.m */,
+				AF3EAAC464727D8B33BE51D9 /* SNFRowRecord.h */,
+				AF3EA8F84257ED6ADC3C15A3 /* SNFDefaultDataSource.m */,
+				AF3EA29675220F2FBD03890B /* SNFDefaultDataSource.h */,
+				AF3EA9C8A5591ABFFEA9F0A5 /* SNFTwitterDataSource.m */,
+				AF3EA9AE94C5D6B8F470B93F /* SNFTwitterDataSource.h */,
+				AF3EADBC1CFCEA2C552E3543 /* SNFTwitterApiClient.m */,
+				AF3EA792B3AD71C8B1D09D1E /* SNFTwitterApiClient.h */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -242,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F23C884191517E300C21503 /* Build configuration list for PBXNativeTarget "Shopnow Fancy" */;
 			buildPhases = (
+				2E3D9C46F8A54728B4A53CF1 /* Check Pods Manifest.lock */,
 				1F23C84B191517E300C21503 /* Sources */,
 				1F23C84C191517E300C21503 /* Frameworks */,
 				1F23C84D191517E300C21503 /* Resources */,
+				3B3749E4DF9A4B0FA2C15C9A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,6 +386,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2E3D9C46F8A54728B4A53CF1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B3749E4DF9A4B0FA2C15C9A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3E2534AF12DC4A60B7822B99 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +456,14 @@
 				1F23C85F191517E300C21503 /* main.m in Sources */,
 				AF3EA5D5D7296F5CD8D379F4 /* SNFAppDelegate.m in Sources */,
 				AF3EAE1DC77287982B2A79CB /* SNFViewController.m in Sources */,
+				AF3EA1A7C0D48635613470BF /* SNFTableViewCell.m in Sources */,
+				AF3EA95FF9332E273450918A /* SNFTableView.m in Sources */,
+				AF3EA3164D678D356631B8E8 /* SNFRowRecord.m in Sources */,
+				AF3EA02D15D1184FD1942DE6 /* SNFDefaultDataSource.m in Sources */,
+				AF3EA522BA72B123CF647A22 /* SNFTwitterDataSource.m in Sources */,
+				AF3EAFB9E0B6FA796A5ABBF2 /* SNFTwitterApiClient.m in Sources */,
+				AF3EA60DEAF731A86F890996 /* SNFTweet.m in Sources */,
+				AF3EA5EF62C0A24A7882F1A9 /* NSObject+SNFSafeConcurrency.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +579,7 @@
 		};
 		1F23C885191517E300C21503 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8404CAC3A0094ECEBB8D1138 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -493,12 +588,14 @@
 				INFOPLIST_FILE = "Shopnow Fancy/Shopnow Fancy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		1F23C886191517E300C21503 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8404CAC3A0094ECEBB8D1138 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -507,6 +604,7 @@
 				INFOPLIST_FILE = "Shopnow Fancy/Shopnow Fancy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

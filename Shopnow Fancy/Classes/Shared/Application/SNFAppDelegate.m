@@ -27,10 +27,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     // UI initialization
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    // Create view controller. Possible override point for iPhone & iPad separation
     self.mainViewController = [[SNFViewController alloc] init];
 
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = self.mainViewController;
+    UINavigationController *navigationController = [[UINavigationController alloc] init];
+    [navigationController pushViewController:self.mainViewController animated:NO];
+
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
 
     return YES;
