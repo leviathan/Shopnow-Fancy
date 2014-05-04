@@ -9,9 +9,9 @@ All Objective-C files use the 'SNF' prefix.
 
 ### Project Setup
 
-Clone the project including submodules:
+Clone the project:
 
-	$ git clone --recursive xxx
+	$ git clone https://github.com/leviathan/Shopnow-Fancy.git
 	$ cd Shopnow Fancy
 	$ gem install cocoapods
 	$ pod setup
