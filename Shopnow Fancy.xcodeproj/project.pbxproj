@@ -122,6 +122,7 @@
 				1F23C86B191517E300C21503 /* SNFViewController.m */,
 				1F23C86D191517E300C21503 /* Images.xcassets */,
 				1F23C859191517E300C21503 /* Supporting Files */,
+				AF3EABB77453F56D9E8A671C /* Classes */,
 			);
 			path = "Shopnow Fancy";
 			sourceTree = "<group>";
@@ -153,6 +154,85 @@
 				1F23C87D191517E300C21503 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF3EA0BFB4375E72349D0BC9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		AF3EA13271A6AA7AABA10843 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		AF3EA34163072D33CEFF0331 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AF3EA354B182B87805BB3823 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF3EA68CFF250B4717AB00AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF3EA8A48F2B150EB74E0B58 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		AF3EA9F9F8FE2973BD775E9C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		AF3EAB131DEEDFAFF9AA453D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AF3EA354B182B87805BB3823 /* Views */,
+				AF3EA68CFF250B4717AB00AC /* Models */,
+				AF3EA9F9F8FE2973BD775E9C /* Library */,
+				AF3EA0BFB4375E72349D0BC9 /* Support */,
+				AF3EA34163072D33CEFF0331 /* Application */,
+				AF3EAB4790F4B15073CE0756 /* Controllers */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AF3EAB4790F4B15073CE0756 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF3EABB77453F56D9E8A671C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF3EA8A48F2B150EB74E0B58 /* iPad */,
+				AF3EA13271A6AA7AABA10843 /* iPhone */,
+				AF3EAB131DEEDFAFF9AA453D /* Shared */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

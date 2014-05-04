@@ -8,10 +8,20 @@
 
 #import "SNFViewController.h"
 
+//***************************************************************************************
+// private interface declaration
+//***************************************************************************************
 @interface SNFViewController ()
+
+@property(strong) UICollectionView *collectionView;
+
 
 @end
 
+
+//***************************************************************************************
+// public interface implementation
+//***************************************************************************************
 @implementation SNFViewController
 
 - (void)viewDidLoad {
