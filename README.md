@@ -39,7 +39,7 @@ Project files are structured according to the following layout.
         /Library          # Anything that falls outside of the MVC pattern
         /Support          # Categories and helpers
     /iPhone
-        …               # Same structure as 'Shared' but with interface specific classes
+        …                 # Same structure as 'Shared' but with interface specific classes
     /iPad
         …
     /Other sources        # Prefix headers, main.m

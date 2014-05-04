@@ -12,8 +12,6 @@
 		1F23C857191517E300C21503 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F23C856191517E300C21503 /* UIKit.framework */; };
 		1F23C85D191517E300C21503 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C85B191517E300C21503 /* InfoPlist.strings */; };
 		1F23C85F191517E300C21503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C85E191517E300C21503 /* main.m */; };
-		1F23C863191517E300C21503 /* SNFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C862191517E300C21503 /* SNFAppDelegate.m */; };
-		1F23C86C191517E300C21503 /* SNFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C86B191517E300C21503 /* SNFViewController.m */; };
 		1F23C86E191517E300C21503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C86D191517E300C21503 /* Images.xcassets */; };
 		1F23C875191517E300C21503 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F23C874191517E300C21503 /* XCTest.framework */; };
 		1F23C876191517E300C21503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F23C852191517E300C21503 /* Foundation.framework */; };
@@ -21,6 +19,8 @@
 		1F23C87F191517E300C21503 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C87D191517E300C21503 /* InfoPlist.strings */; };
 		1F23C881191517E300C21503 /* Shopnow_FancyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C880191517E300C21503 /* Shopnow_FancyTests.m */; };
 		31C2B486F94F490A924858D6 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3034027F6CD9433AA8BD4FAC /* libPods-test.a */; };
+		AF3EA5D5D7296F5CD8D379F4 /* SNFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EAB5956A65C82416C252F /* SNFAppDelegate.m */; };
+		AF3EAE1DC77287982B2A79CB /* SNFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3EA279881725BDC2523D8B /* SNFViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +43,6 @@
 		1F23C85C191517E300C21503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F23C85E191517E300C21503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F23C860191517E300C21503 /* Shopnow Fancy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shopnow Fancy-Prefix.pch"; sourceTree = "<group>"; };
-		1F23C861191517E300C21503 /* SNFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFAppDelegate.h; sourceTree = "<group>"; };
-		1F23C862191517E300C21503 /* SNFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFAppDelegate.m; sourceTree = "<group>"; };
-		1F23C86A191517E300C21503 /* SNFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFViewController.h; sourceTree = "<group>"; };
-		1F23C86B191517E300C21503 /* SNFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFViewController.m; sourceTree = "<group>"; };
 		1F23C86D191517E300C21503 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F23C873191517E300C21503 /* Shopnow FancyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopnow FancyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F23C874191517E300C21503 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +50,10 @@
 		1F23C87E191517E300C21503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F23C880191517E300C21503 /* Shopnow_FancyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopnow_FancyTests.m; sourceTree = "<group>"; };
 		3034027F6CD9433AA8BD4FAC /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3EA279881725BDC2523D8B /* SNFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFViewController.m; sourceTree = "<group>"; };
+		AF3EA81D05F62AA597E3CEE7 /* SNFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFViewController.h; sourceTree = "<group>"; };
+		AF3EAB5956A65C82416C252F /* SNFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFAppDelegate.m; sourceTree = "<group>"; };
+		AF3EAE85D0837D0CCDE4F5C7 /* SNFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,6 @@
 		1F23C858191517E300C21503 /* Shopnow Fancy */ = {
 			isa = PBXGroup;
 			children = (
-				1F23C861191517E300C21503 /* SNFAppDelegate.h */,
-				1F23C862191517E300C21503 /* SNFAppDelegate.m */,
-				1F23C86A191517E300C21503 /* SNFViewController.h */,
-				1F23C86B191517E300C21503 /* SNFViewController.m */,
 				1F23C86D191517E300C21503 /* Images.xcassets */,
 				1F23C859191517E300C21503 /* Supporting Files */,
 				AF3EABB77453F56D9E8A671C /* Classes */,
@@ -173,6 +169,8 @@
 		AF3EA34163072D33CEFF0331 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				AF3EAB5956A65C82416C252F /* SNFAppDelegate.m */,
+				AF3EAE85D0837D0CCDE4F5C7 /* SNFAppDelegate.h */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -221,6 +219,8 @@
 		AF3EAB4790F4B15073CE0756 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AF3EA279881725BDC2523D8B /* SNFViewController.m */,
+				AF3EA81D05F62AA597E3CEE7 /* SNFViewController.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -367,9 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F23C86C191517E300C21503 /* SNFViewController.m in Sources */,
-				1F23C863191517E300C21503 /* SNFAppDelegate.m in Sources */,
 				1F23C85F191517E300C21503 /* main.m in Sources */,
+				AF3EA5D5D7296F5CD8D379F4 /* SNFAppDelegate.m in Sources */,
+				AF3EAE1DC77287982B2A79CB /* SNFViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
