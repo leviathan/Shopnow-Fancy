@@ -1,7 +1,11 @@
 ShopNow Fancy
 ====================
 
-This is the "ShopNow Fancy" iOS Test solution for the ShopNow GmbH. All Objective-C files use the 'SNF' prefix for ShopNow.
+This project contains a custom scrollable collection view, which basically mimics (in a very simple way) the behavior of the iOS `UITableView`. It reuses its `cells` and keeps only a bare minimum of such `cells` instantiated.
+
+`Cells` are custom `UIView` subclasses that contain either a `MKMapView` or `UIImageView` on the left side and two labels on the right side. The two different types can be specified via the `SNFTableViewCell` `cellType` property.
+
+All Objective-C files use the 'SNF' prefix.
 
 ### Project Setup
 
@@ -53,6 +57,11 @@ Project files are structured according to the following layout.
 ### External Dependencies
 
 External dependencies are managed via cocoapods. Check the Podfile to see, which external components and libraries are beeing used in the project.
+
+### todos
+
+- The project contains a Twitter API client, which is intended to be hooked up to the user's Twitter account. Currently the `SNFTwitterApiClient` just returns some dummy tweets.
+- The `SNFViewController` just displays a dummy view controller, when the user taps on a cell. This should more visually pleasing.
 
 
 

@@ -49,6 +49,7 @@ static NSString *const kSNFCollectionViewCellIdentifier = @"kSNFCollectionViewCe
 
     // trigger loading of table data
     [[SNFTwitterDataSource sharedDataSource] addDelegate:self];
+    // todo there should be a search field on the UI for the twitter search term
     [[SNFTwitterDataSource sharedDataSource] updateTweetsFor:@"Weltherrschaft"];
 }
 
@@ -93,6 +94,7 @@ static NSString *const kSNFCollectionViewCellIdentifier = @"kSNFCollectionViewCe
 #pragma mark - UIViewControllerRotation
 
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+    self.snfTableView.frame = self.view.frame;
     [self.snfTableView reloadData];
 }
 
