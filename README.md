@@ -5,7 +5,7 @@ This project contains a custom scrollable collection view, which basically mimic
 
 `Cells` are custom `UIView` subclasses that contain either a `MKMapView` or `UIImageView` on the left side and two labels on the right side. The two different types can be specified via the `SNFTableViewCell` `cellType` property.
 
-All Objective-C files use the 'SNF' prefix.
+All Objective-C files use the `SNF` prefix.
 
 ### Project Setup
 
@@ -17,7 +17,7 @@ Clone the project:
 	$ pod setup
 	$ pod install
 
-Build and run the 'Shopnow Fancy.xcworkspace' project using XCode (or any IDE of your choice).
+Build and run the `Shopnow Fancy.xcworkspace` project using XCode (or any IDE of your choice).
 
 #### Cocoapods
 
