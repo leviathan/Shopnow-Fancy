@@ -60,8 +60,8 @@ External dependencies are managed via cocoapods. Check the Podfile to see, which
 
 ### todos
 
-- The project contains a Twitter API client, which is intended to be hooked up to the user's Twitter account. Currently the `SNFTwitterApiClient` just returns some dummy tweets.
-- The `SNFViewController` just displays a dummy view controller, when the user taps on a cell. This should more visually pleasing.
+- The project contains a Twitter API client, which is intended to be hooked up to the user's Twitter account. Currently the `SNFTwitterApiClient` just returns some dummy tweets. The tweet data should be parsed properly in the API client.
+- The `SNFViewController` just displays a dummy view controller, when the user taps on a cell. This should be visually more pleasing.
 
 
 
