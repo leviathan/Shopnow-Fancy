@@ -14,9 +14,9 @@
 //***************************************************************************************
 @interface SNFTableView ()
 
-@property(nonatomic, strong) NSMutableArray *rowRecords;
-@property(nonatomic, strong) NSMutableSet *reusePool;
-@property(nonatomic, strong) NSMutableIndexSet *visibleRows;
+@property(nonatomic) NSMutableArray *rowRecords;
+@property(nonatomic) NSMutableSet *reusePool;
+@property(nonatomic) NSMutableIndexSet *visibleRows;
 
 - (void)setup;
 

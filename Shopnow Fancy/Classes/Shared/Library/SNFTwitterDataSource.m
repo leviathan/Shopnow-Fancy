@@ -19,7 +19,7 @@
 */
 @property(nonatomic, weak) AFHTTPRequestOperation *tweetOperation;
 
-@property(nonatomic, strong) NSArray *tweetsStorage;
+@property(nonatomic) NSArray *tweetsStorage;
 
 @end
 

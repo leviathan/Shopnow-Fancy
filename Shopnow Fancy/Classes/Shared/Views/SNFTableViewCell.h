@@ -30,7 +30,7 @@ typedef NS_ENUM(NSUInteger, SNFTableViewCellType) {
 /**
 * The tweet which is assigned to this cell and whose values are displayed by the cell.
 */
-@property(nonatomic, strong) SNFTweet *tweet;
+@property(nonatomic) SNFTweet *tweet;
 
 /**
 * Creates a new cell with the identifier and cell type.

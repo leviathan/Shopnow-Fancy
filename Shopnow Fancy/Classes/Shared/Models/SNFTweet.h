@@ -8,6 +8,6 @@
 */
 @interface SNFTweet : NSObject
 
-@property(strong) NSString *tweetText;
+@property(nonatomic) NSString *tweetText;
 
 @end

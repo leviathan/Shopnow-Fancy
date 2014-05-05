@@ -18,15 +18,15 @@
 /**
 * The map view on the cell's left side. Whether this is available or not, depends on the cell type.
 */
-@property(nonatomic, strong) MKMapView *mapView;
+@property(nonatomic) MKMapView *mapView;
 
 /**
 * The image view on the cell's left side. Whether this is available or not, depends on the cell type.
 */
-@property(nonatomic, strong) UIImageView *imageView;
+@property(nonatomic) UIImageView *imageView;
 
-@property(nonatomic, strong) UILabel *labelOne;
-@property(nonatomic, strong) UILabel *labelTwo;
+@property(nonatomic) UILabel *labelOne;
+@property(nonatomic) UILabel *labelTwo;
 
 @end
 

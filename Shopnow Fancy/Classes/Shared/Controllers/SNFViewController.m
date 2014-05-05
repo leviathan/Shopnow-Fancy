@@ -21,9 +21,9 @@ static NSString *const kSNFCollectionViewCellIdentifier = @"kSNFCollectionViewCe
 //***************************************************************************************
 @interface SNFViewController ()
 
-@property(nonatomic, strong) NSArray *tableRows; // todo the data source should server the table data
+@property(nonatomic) NSArray *tableRows; // todo the data source should server the table data
 
-@property(nonatomic, strong) SNFTableView *snfTableView;
+@property(nonatomic) SNFTableView *snfTableView;
 
 @end
 

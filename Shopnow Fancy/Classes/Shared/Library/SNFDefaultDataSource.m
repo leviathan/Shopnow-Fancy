@@ -25,7 +25,7 @@
 //***************************************************************************************
 @interface SNFDefaultDataSource ()
 
-@property(nonatomic, strong, readwrite) NSHashTable *delegates;
+@property(nonatomic, readwrite) NSHashTable *delegates;
 
 @end
 

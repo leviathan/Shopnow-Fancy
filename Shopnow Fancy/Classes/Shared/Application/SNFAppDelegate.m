@@ -14,7 +14,7 @@
 //***************************************************************************************
 @interface SNFAppDelegate ()
 
-@property(strong) SNFViewController *mainViewController;
+@property(nonatomic) SNFViewController *mainViewController;
 
 @end
 

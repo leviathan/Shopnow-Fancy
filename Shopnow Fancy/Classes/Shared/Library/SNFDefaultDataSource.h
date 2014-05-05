@@ -5,8 +5,8 @@
 
 @interface SNFDataSourcePackage : NSObject
 
-@property(nonatomic, strong) id dataSourceReference;
-@property(nonatomic, strong) NSError *error;
+@property(nonatomic) id dataSourceReference;
+@property(nonatomic) NSError *error;
 
 - (instancetype)initWith:(id)dataSourceReference error:(NSError *)error;
 
@@ -32,7 +32,7 @@
 */
 @interface SNFDefaultDataSource : NSObject
 
-@property(nonatomic, strong, readonly) NSHashTable *delegates;
+@property(nonatomic, readonly) NSHashTable *delegates;
 
 /**
 * Adds a zeroing-weak referenced delegate to the list of delegates.

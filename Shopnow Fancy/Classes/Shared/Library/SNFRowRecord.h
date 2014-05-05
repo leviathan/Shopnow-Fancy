@@ -12,6 +12,6 @@
 
 @property(nonatomic) CGFloat startPositionY;
 @property(nonatomic) CGFloat height;
-@property(nonatomic, strong) SNFTableViewCell *cachedCell;
+@property(nonatomic) SNFTableViewCell *cachedCell;
 
 @end
